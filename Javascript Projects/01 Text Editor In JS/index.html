@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h1 class="heading">Text Editor</h1>
+        <!-- button section -->
+        <div class="btn__Section">
+            <button data-action="bold">Bold</button>
+            <button data-action="italic">Italic</button>
+            <button data-action="left">Align Left</button>
+            <button data-action="center">Align Center</button>
+            <button data-action="right">Align Right</button>
+            <button data-action="upper">Upper Case</button>
+            <button data-action="lower">Lower Case</button>
+            <button data-action="capitalize">Capitalize</button>
+            <button data-action="clear">Clear Text</button>
+        </div>
+        <hr>
+        <!-- editor section -->
+        <div class="textarea__div">
+            <textarea id="textarea1" rows="15" placeholder="Your text here..."></textarea>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
